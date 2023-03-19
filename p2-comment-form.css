@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(pictures/zen-master.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav h2 span{
+    position: relative;
+    top: -15px;
+    color: black;
+    font-size: 40px;
+    -webkit-text-stroke: 2px white;
+}
+
+nav h2 {
+    color: #ffd78b;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(107,127,150);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(249,214,150);
+    border: 2px solid rgb(249,214,150);
+    border-radius: 15px;
+    transition-duration: .75s;
+}
+
+#navface {
+    width: 150px;
+    height: auto;
+}
+
+legend {
+    text-align: left;
+}
+
+.form {
+    text-align: center;
+}
+
+.form fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:0% 5%;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 2.5% 5% 0
+}
+
+.textarea {
+    text-align: right;
+    padding: 10%;
+}
+
+#box2 {
+    display: flex;
+}
+
+textarea {
+    width: 100%;
+}
+
+.textinput input {
+    width: 100%;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
